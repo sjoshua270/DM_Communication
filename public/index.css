@@ -1,0 +1,90 @@
+body {
+    background: #ECEFF1;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#load {
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 13px;
+    vertical-align: bottom;
+}
+
+@media (max-width: 600px) {
+    body, #message {
+        margin-top: 0;
+        background: white;
+        box-shadow: none;
+    }
+
+    body {
+        border-top: 16px solid #ffa100;
+    }
+}
+
+#toolbar {
+    display: inline-block;
+    width: 100%;
+}
+
+#title-status {
+    margin: 5px;
+    float: left;
+}
+
+#sign-out {
+    margin: 5px;
+    float: right;
+}
+
+#name {
+    width: 100%
+}
+
+#roll {
+    width: 100%
+}
+
+#dm_q_wrapper {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+
+#dm_q {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+#dm_no {
+    margin: 10px;
+}
+
+#dm_yes {
+    margin: 10px;
+}
+
+#room_code_wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+#room_code {
+    text-align: center;
+}
+
+#room_code_input_wrapper {
+    text-align: center;
+}
+
+#submissions {
+    text-align: center;
+}
+
+.mdl-layout-title > #sign-in-status {
+    font-size: 0.8em;
+}
