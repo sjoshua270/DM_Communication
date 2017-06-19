@@ -1,3 +1,9 @@
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+        .register('./service-worker.js')
+        .then(function() { console.log('Service Worker Registered'); });
+}
+
 document.addEventListener('DOMContentLoaded', function () {
     try {
         let app = firebase.app();
