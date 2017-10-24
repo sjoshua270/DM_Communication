@@ -1,12 +1,12 @@
-const cacheName = 'weatherPWA-step-6-1';
+const cacheName = 'Rethink Apps DM-Comm';
 const filesToCache = [
-    "404.html",
+    "./404.html",
     "index.html",
     "app.js",
     "app.css",
     "init.js",
     "https://code.jquery.com/jquery-3.2.1.slim.min.js",
-    "http://fonts.googleapis.com/css?family=Roboto:300,400,500,700",
+    "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700",
     "https://fonts.googleapis.com/icon?family=Material+Icons",
     "https://code.getmdl.io/1.3.0/material.indigo-pink.min.css",
     "https://code.getmdl.io/1.3.0/material.min.js",
